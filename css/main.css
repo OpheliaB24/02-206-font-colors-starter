@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: #7b7d70;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #4eafb8;
+}
+
+p{
+  font-size: 1em;
+  color: #ff8641;
+}
+
+
+/***** TABLET *****/
+
+@media (min-width: 768px) {
+
+  section {
+    width: 50%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: #02cbd2;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #fcc02a;
+  }
+
+  p{
+    font-size: 1em;
+    color: #7b8f8e;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  section {
+    width: 50%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: red;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #cabd61;
+  }
+
+  p{
+    font-size: 1em;
+    color: #c19e74;
+  }
+}
